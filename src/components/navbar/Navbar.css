@@ -1,0 +1,191 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url("");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-link {
+  color: black;
+  font-size: 1.5vw;
+}
+
+.nav-link:hover {
+  color: #daa711;
+  transition: 0.3s;
+}
+
+.profilePhoto {
+  background-image: url("../../assets/shobby.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#myName {
+  margin-top: 220px;
+  font-size: 5vw;
+  letter-spacing: 3px;
+}
+
+.heading {
+  margin-left: 0px;
+}
+
+#get-to-know-me {
+  font-size: 2.8rem;
+}
+
+#contact {
+  background: linear-gradient(
+      to right,
+      rgba(245, 245, 245, 0.8),
+      rgba(245, 245, 245, 0.8)
+    ),
+    url("");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.project-info {
+  padding-top: 50px;
+}
+
+.myIntro {
+  width: 60%;
+}
+
+form {
+  box-shadow: 0 0 8px silver;
+  width: 70%;
+}
+/* project card */
+.card-container {
+  position: relative;
+  width: 45%;
+  height: 300px;
+  margin: 10px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#project1 {
+  object-fit: contain;
+}
+
+#project2 {
+  object-fit: contain;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffc107;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.card-container:hover .overlay {
+  height: 100%;
+}
+.overlay > p {
+  width: 70%;
+  position: absolute;
+  top: 35%;
+  left: 17%;
+  text-align: center;
+}
+
+.overlay > div {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+}
+
+.overlay > a {
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    height: 90vh;
+  }
+  #myName {
+    margin-top: 150px;
+  }
+  .heading {
+    margin-left: 30px;
+    text-align: justify;
+  }
+  .cv-btn {
+    margin-left: 30px;
+  }
+  #get-to-know-me {
+    font-size: 2.3rem;
+  }
+  .project-info {
+    align-items: center;
+    padding-top: 0px;
+  }
+  .project-info p {
+    text-align: center;
+  }
+  form {
+    width: 100%;
+  }
+  .menuBtn {
+    box-shadow: none;
+  }
+  .myIntro {
+    width: 90%;
+  }
+  .card-container {
+    width: 95%;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .header {
+    height: 50vh;
+  }
+  #myName {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 768px) {
+  .card-container {
+    width: 45%;
+    height: 300px;
+  }
+}
