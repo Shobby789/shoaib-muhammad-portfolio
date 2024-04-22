@@ -1,5 +1,5 @@
 import "../../App.css";
-import resume from "../../assets/ShoaibMuhammad-Resume.pdf";
+import resume from "../../assets/Shoaib-Muhammad-Resume.pdf";
 
 export default function Header() {
   return (

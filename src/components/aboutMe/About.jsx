@@ -61,9 +61,8 @@ export default function About() {
               </p>
               <p className="get_to_Know_para" data-aos="fade-up">
                 Currently I'm working as a full time
-                <span className="highlited-text"> Freelancer</span> on{" "}
-                <span className="highlited-text"> Upwork</span> &
-                <span className="highlited-text"> Fiverr</span>.
+                <span className="highlited-text"> Web Developer</span> at{" "}
+                <span className="highlited-text"> LaunchBox Pakistan</span>.
               </p>
               <p className="get_to_Know_para" data-aos="fade-up">
                 I'm open to <span className="highlited-text">Job</span>{" "}
